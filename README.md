@@ -1,10 +1,37 @@
-# Task Management Application - Client
+# Task Manager Application - Client
 
-This application acts as the front-end for the Task Management application developed in NestJS.
+## Description
 
-## Getting Started
+This application acts as the front-end for the [Task Management Application](https://github.com/nextglabs/task-manager-app) developed in NestJS.
 
-1. Run `npm install` or `yarn install` command.
-2. Then `npm start` or `yarn start`.
+## Installation
 
-At this point, the server needs to be running on port 4000.
+```bash
+# install dependencies
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run start
+```
+
+## Building the app
+
+```bash
+# production build
+$ npm run build
+```
+
+## Testing
+
+```bash
+# unit tests
+$ npm run test
+```
+
+## License
+
+Nest is [MIT licensed](LICENSE).
