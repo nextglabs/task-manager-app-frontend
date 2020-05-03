@@ -2,7 +2,7 @@
   "name": "task-manager-app-client",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://nextglabs.github.io/task-manager-app-frontend",
+  "homepage": "/task-manager-app-frontend",
   "dependencies": {
     "@material-ui/core": "^4.0.0",
     "@material-ui/icons": "^4.0.0",
