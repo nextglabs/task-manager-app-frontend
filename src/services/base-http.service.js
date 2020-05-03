@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default class BaseHttpService {
-  BASE_URL = process.env.NODE_ENV === "development" ? "http://localhost:4000" : "https://nextglabs-task-manager.herokuapp.com/";
+  BASE_URL = process.env.NODE_ENV === "development" ? "http://localhost:4000" : "https://nextglabs-task-manager.herokuapp.com";
   _accessToken = null;
 
   constructor(routerStore) {
