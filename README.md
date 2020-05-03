@@ -1,5 +1,7 @@
 # Task Manager Application - Client
 
+![Deployment](https://github.com/nextglabs/task-manager-app-frontend/workflows/Deployment/badge.svg)
+
 ## Description
 
 This application acts as the front-end for the [Task Management Application](https://github.com/nextglabs/task-manager-app) developed in NestJS.
