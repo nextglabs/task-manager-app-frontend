@@ -18,7 +18,9 @@ const services = {};
 const stores = {};
 
 stores.routerStore = new RouterStore();
-const browserHistory = createBrowserHistory();
+const browserHistory = createBrowserHistory({
+  basename: process.env.PUBLIC_URL,
+});
 const history = syncHistoryWithStore(browserHistory, stores.routerStore);
 
 services.tasksService = new TasksService(stores.routerStore);
